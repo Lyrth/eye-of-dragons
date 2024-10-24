@@ -21,7 +21,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 //Only edit below this line, the above code adds and enables the nessasary things for Forge to be setup.
 
-version = "0.1.0"
+version = "0.1.1"
 group= "eyeofdragons"
 archivesBaseName = "eyeofdragons"
 sourceCompatibility = targetCompatibility = "1.8"
@@ -99,10 +99,6 @@ repositories {
         url "http://dvs1.progwml6.com/files/maven"
     }
     maven {
-        name "gegy1000"
-        url "https://maven.gegy1000.net"
-    }
-    maven {
         name "Jared"
         url "http://maven.blamejared.com/"
     }
@@ -121,10 +117,10 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.4-35.1.36'
+    minecraft 'net.minecraftforge:forge:1.16.5-36.0.46'
 
-    compile 'ice-and-fire-dragons:iceandfire:2.1.5:1.16.4'
-    compile 'citadel:citadel:1.5.3:deobf'
+    compile 'ice-and-fire-dragons:iceandfire:2.1.12:1.16.5'
+    compile 'citadel:citadel:1.8.1:deobf'
 }
 
 jar {
